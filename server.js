@@ -176,7 +176,7 @@ app.listen(3012, function () {
 
 
 
-MongoClient.connect('mongodb://localhost:27017/myapi', function (err, database) {
+MongoClient.connect('mongodb://127.0.0.1:27017/myapi', function (err, database) {
   if (err) {
     return console.log(err);
   }
